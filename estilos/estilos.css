@@ -625,6 +625,9 @@ body div.transport section.container div.cont-cont div.contenido .cuadro a.v {
   display: inline-block;
   margin-right: 3%;
 }
+body div.transport section.container div.cont-cont div.contenido .cuadro a.v:hover {
+  background: #FAB400;
+}
 body div.transport section.container div.cont-cont div.contenido .cuadro a.ama {
   background: #FAB400 !important;
 }
