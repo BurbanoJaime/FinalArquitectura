@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" id="ng-app" data-ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PREX - Transporte - Alquiler de Vehículos - Mazda 6</title>
+    <link rel="stylesheet" type="text/css" href="../../estilos/estilos.css" />
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+</head>
+
+<body data-ng-controller="AppController">
+    <div class="mazda">
+        <header>
+            <div class="con">
+                <a href="#" title="Prex" class="logo">
+                    <img src="../../imagenes/logo.png" alt="Logo" />
+                </a>
+                <nav>
+                    <div class="na"><a href="../../transporte/" class="trans">TRANSPORTE
+                        </a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="../../transporte/">Alquiler de Vehículos</a>
+                                </li>
+                                <li><a href="#">Grúas</a>
+                                </li>
+                                <li><a href="#">Mensajería</a>
+                                </li>
+                                <li><a href="#">Personal</a>
+                                </li>
+                                <li><a href="#">Mudanzas</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="na"><a href="../../scouting/">SCOUTING</a>
+                    </div>
+                    <div class="na"><a href="#">CASTING</a>
+                    </div>
+                    <div class="na"><a href="#">EQUIPOS</a>
+                    </div>
+                    <div class="na"><a href="#">DECORACIÓN</a>
+                    </div>
+                    <div class="na"><a href="#">OTROS</a>
+                    </div>
+                    <div class="na"><a href="#"><img class="icono-lupa" src="../../imagenes/search.png"/></a>
+                    </div>
+                </nav>
+                <div class="session">
+                    <p>Quentin Tarantino <span class="img-pro"></span>
+                    </p>
+                </div>
+            </div>
+        </header>
+        
+        <section class="containerr" id="bas">
+            <div class="cont-cont">
+                <p class="ruta">PREX / TRANSPORTE / ALQUILER VEHÍCULOS / MAZDA 6</p>
+
+                <aside class="f">
+                    <div class="filtros">
+                        <h3>FILTROS</h3>
+                        <p class="order">Ordenar por
+                            <select>
+                                <option>Precio ascendente</option>
+                                <option>Precio descendente</option>
+                                <option>Descuentos</option>
+                            </select> <span class="icono-cuadro1"></span><span class="icono-cuadro2"></span>
+                        </p>
+                        <div class="calendar">
+                            <div class="month">
+                                <ul>
+                                    <li class="prev">&#10094;</li>
+                                    <li class="next">&#10095;</li>
+                                    <li>
+                                        NOVIEMBRE
+                                        <br>
+                                        <span style="font-size:18px">2017</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="weekdays">
+                                <li>LUN</li>
+                                <li>MAR</li>
+                                <li>MIE</li>
+                                <li>JUE</li>
+                                <li>VIE</li>
+                                <li>SAB</li>
+                                <li>DOM</li>
+                            </ul>
+
+                            <ul class="days">
+                                <li class="inactive">30</li>
+                                <li class="inactive">31</li>
+                                <li>01</li>
+                                <li>02</li>
+                                <li>03</li>
+                                <li>04</li>
+                                <li>05</li>
+                                <li>06</li>
+                                <li>07</li>
+                                <li>08</li>
+                                <li>09</li>
+                                <li><span>10</span>
+                                </li>
+                                <li>11</li>
+                                <li>12</li>
+                                <li>13</li>
+                                <li>14</li>
+                                <li class="active">15</li>
+                                <li class="active">16</li>
+                                <li class="active">17</li>
+                                <li class="active">18</li>
+                                <li class="active">19</li>
+                                <li class="active">20</li>
+                                <li class="active">21</li>
+                                <li class="active">22</li>
+                                <li class="active">23</li>
+                                <li class="active">24</li>
+                                <li>25</li>
+                                <li>26</li>
+                                <li>27</li>
+                                <li>28</li>
+                                <li>29</li>
+                                <li>30</li>
+                                <li class="inactive">01</li>
+                                <li class="inactive">02</li>
+                                <li class="inactive">03</li>
+                            </ul>
+
+                        </div>
+                        <div class="precio container">
+                            <h4>PRECIO</h4>
+                            <section class="row">
+                                <div class="col-md-6 ">
+
+
+                                    <div data-range-slider data-floor="1000000" data-ceiling="100000000" data-dragstop="true" data-ng-model-low="items[1].value" data-ng-model-high="items[2].value"></div>
+                                    <p class="tht">Desde <span>$ {{items[1].value}}</span>
+                                    </p>
+                                    <p class="tht">Hasta <span>$ {{items[2].value}}</span>
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="color">
+                            <h4>COLOR</h4>
+                            <span class="color negro"></span>
+                            <span class="color amarillo"></span>
+                            <span class="color azul"></span>
+                            <span class="color rojo"></span>
+                            <span class="color verde"></span>
+                            <span class="color caqui"></span>
+                            <span class="color rojoo"></span>
+                            <span class="color cafe"></span>
+                            <span class="color gris"></span>
+                            <span class="color naranja"></span>
+                            <span class="color rosa"></span>
+                            <span class="color verdem"></span>
+                        </div>
+                        <div class="tematica">
+                            <h4>TEMÁTICA</h4>
+                            <select>
+                                <option>Militar</option>
+                                <option>Fantasia</option>
+                                <option>Aventura</option>
+                                <option>Acción</option>
+                                <option>Policial</option>
+                            </select>
+                        </div>
+                        <button>Borrar Filtros</button>
+                    </div>
+                    <div class="escribenos">
+                        <p>¿No encuentras lo que buscas?</p>
+                        <h2>ESCRÍBENOS</h2>
+                        <p class="i">Te ofrecemos un servicio personalizado</p>
+                        <a href="#">Contactar</a>
+                    </div>
+
+                </aside>
+
+                
+                <div class="contenido">
+                    <div class="container">
+                        <ul class="tabs" id="tabbes">
+                            <li><a href="#tab1" class="to1"></a></li>
+                            <li><a href="#tab2" class="to2"></a></li>
+                            <li><a href="#tab3" class="to3"></a></li>
+                        </ul>
+                        <div class="contenedor_tab">
+
+                            <div id="tab1" class="contenido_tab">
+                                
+                            </div>
+
+                            <div id="tab2" class="contenido_tab">
+                                
+                            </div>
+                            <div id="tab3" class="contenido_tab">
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <!-- El resto -->
+                    
+                    <div class="elresto">
+                        <div class="info1">
+                            <h1>Mazda 6</h1>
+                            <p>Mazda 6, automóvil con un diseño de lujo con amplio espacio interior equipado con ultima tecnología ideal para desplazarce en trayectos largos muy confortable.</p>
+                        </div>
+                        <div class="info2">
+                            <h2>Información Básica</h2>
+                            <p>
+                                <b>Color:</b> Rojo<br>
+                                <b>Marca:</b> Mazda<br>
+                                <b>Dirección:</b> Hidráulica<br>
+                                <b>Aire acondicionado:</b> Sí<br>
+                                <b>Sonido:</b> mp3<br>
+                            </p>
+                            
+                            <p>
+                                <b>Combustible:</b> Gasolina<br>
+                                <b>Modelo:</b> Mazda 6<br>
+                                <b>Transmisión:</b> Mecánica<br>
+                                <b>Asientos:</b> Tela<br>
+                              
+                            </p>
+                            
+                            <p>
+                                <b>Año:</b> 2013<br>
+                                <b>Dirección:</b> 4<br>
+                                <b>Tracción:</b> 4x2<br>
+                                <b>Vidrios eléctricos:</b> Sí<br>
+
+                            </p>
+                            
+                            <a href="#">Descargar ficha técnica</a>
+                        </div>
+                        <div class="info3">
+                            <h2>Alquiler</h2>
+                            <p><span class="rojo ac"></span><span class="rojoo"></span><span class="negro"></span><span class="gris"></span><span class="caqui"></span> <b>Mazda 6 - Color Rojo</b> <i>Unidad <strong>$6'853.456</strong></i></p>
+                            
+                            <p><span class="rojo"></span><span class="rojoo"></span><span class="negro ac"></span><span class="gris"></span><span class="caqui"></span> <b>Mazda 6 - Color Negro</b> <i>Unidad <strong>$6'853.456</strong></i></p>
+                            
+                            <p class="total"><i>TOTAL <b>$20'560.369</b></i></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+        <footer>
+           <a class="compras">COMPRAS</a>
+            <div class="cf">
+                <div class="sec">
+                    <h5>SOBRE PREX</h5>
+                    <p>
+                        <a class="naa">¿Quiénes sómos?</a>
+                        <a class="naa">Trabaja con nosotros</a>
+                        <a class="naa">Terminos y Condiciones</a>
+                        <a class="naa">Políticas de Privacidad</a>
+                        <a class="naa">Ayuda / PQR</a>
+                    </p>
+                </div>
+
+                <div class="sec">
+                    <h5>SERVICIOS</h5>
+                    <p>
+                        <a class="naa">Transportes</a>
+                        <a class="naa">Scouting</a>
+                        <a class="naa">Casting</a>
+                        <a class="naa">Equipos</a>
+                        <a class="naa">Decoración</a>
+                        <a class="naa">Otros</a>
+                    </p>
+                </div>
+
+                <div class="sec">
+                    <h5>REDES SOCIALES</h5>
+                    <p>
+                        <a><img src="../../imagenes/insta-icon.png" alt="Logo" /></a>
+                        <a><img src="../../imagenes/face-icon.png" als="logo"/></a>
+                        <a><img src="../../imagenes/yout-icon.png" alt="logo"/></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+    <script src="../../js/controllers.js"></script>
+    <script src="../../js/angular-range-slider.min.js"></script>
+    
+    <script type="text/javascript">
+            $(document).ready(function () {
+                $(".contenido_tab").hide(); //Ocultar capas
+                $("ul.tabs li:first").addClass("activa").show(); //Activar primera pestaña
+                $(".contenido_tab:first").show(); //Mostrar contenido primera pestaña
+                // Sucesos al hacer click en una pestaña
+                $("ul.tabs li").click(function () {
+                    $("ul.tabs li").removeClass("activa"); //Borrar todas las clases "activa"
+                    $(this).addClass("activa"); //Añadir clase "activa" a la pestaña seleccionada
+                    $(".contenido_tab").hide(); //Ocultar todo el contenido de la pestaña
+                    var activatab = $(this).find("a").attr("href"); //Leer el valor de href para identificar la pestaña activa 
+                    $(activatab).fadeIn(); //Visibilidad con efecto fade del contenido activo
+                    return false;
+                });
+            });
+        </script>
+    
+</body>
+
+</html>
